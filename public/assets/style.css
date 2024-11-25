@@ -255,8 +255,8 @@
                 padding: 5px;
             }
             .hero-section {
-                height: 25vh; /* Reduz a altura do banner */
-                width: 100vw;
+                height: 15vh; /* Reduz a altura do banner */
+                width: 100%;
             }
               
               .hero-section img {
