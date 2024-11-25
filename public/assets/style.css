@@ -98,7 +98,7 @@
         }
 
         nav ul li {
-            display: inline-block;
+            display:inline-block;
         }
 
         nav ul li a {
@@ -240,20 +240,29 @@
  
         @media (max-width: 768px) {
             .hero-section {
-                height: 50vh; /* Reduz a altura do banner */
+                height: 30vh; /* Reduz a altura do banner */
               }
               
               .hero-section img {
-                
+                text-align: center;
                 object-fit: cover; /* Evita distorções */
               }
             
+            
             header {
+                display: flex;
+                align-items: center;
                 flex-direction: column;
-                height: auto;
-                padding: 1rem;
-                text-align: center;
+                justify-content: space-between; /* Garante que os botões sejam distribuídos igualmente */
+                width: 100%;
+                height: 100px;
+                background-color: blue;
+                padding: 0 2rem;
+                border: 4px solid var(--primary-color);
             }
+          
+            
+            
             header h1{
                 margin: 0;
                 font-size: 1rem;
